@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.gallery {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photo-card {
+  width: 30%;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #c1c1c1;
+  padding: 20px;
+}
+
+.photo-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.info {
+  display: flex;
+  color: white;
+  padding: 10px 20px;
+  align-content: center;
+}
+.info-items {
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+.info-item {
+  margin-bottom: 0px;
+}
